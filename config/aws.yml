@@ -1,0 +1,14 @@
+development:
+  access_key_id: AKIAIIRVQSMNLQ4JS7BA
+  secret_access_key: 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
+  bucket: uploaderfilestorage
+
+production:
+  access_key_id: AKIAIIRVQSMNLQ4JS7BA
+  secret_access_key: 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
+  bucket: uploaderfilestorage
+
+test:
+  access_key_id: AKIAIIRVQSMNLQ4JS7BA
+  secret_access_key: 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
+  bucket: uploaderfilestorage
