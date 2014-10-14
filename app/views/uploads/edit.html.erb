@@ -1,0 +1,8 @@
+<h1>Editing upload</h1>
+
+<%= render 'form' %>
+<%= form_for @user, :url => uploads_path, :html => { :multipart => true } do |form| %>
+  <%= form.file_field :avatar %>
+<% end %>
+<%= link_to 'Show', @upload %> |
+<%= link_to 'Back', uploads_path %>
